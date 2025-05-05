@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MoneyConverter</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    
+    <h1>Конвертация валют</h1>
+    <p>
+      <span> Money Converter </span> — это простой и удобный онлайн-конвертер валют, который
+      позволяет быстро и точно преобразовывать одну валюту в другую. Сайт
+      поддерживает актуальные обменные курсы и предоставляет пользователю
+      интуитивно понятный интерфейс для ввода суммы и выбора валют. Идеально
+      подходит для путешественников, бизнесменов и всех, кто работает с
+      международными транзакциями.
+    </p>
+
+    <div class="converter">
+      <h2>Конвертер валют</h2>
+      <div>
+          <label for="amount">Сумма:</label>
+          <input type="number" id="amount" placeholder="Введите сумму" value="1">
+      </div>
+      <div>
+          <label for="from">Из:</label>
+          <select id="from">
+              <option value="USD">Доллар США (USD)</option>
+              <option value="EUR">Евро (EUR)</option>
+              <option value="RUB">Рубль (RUB)</option>
+          </select>
+      </div>
+      <div>
+          <label for="to">В:</label>
+          <select id="to">
+              <option value="EUR">Евро (EUR)</option>
+              <option value="USD">Доллар США (USD)</option>
+              <option value="RUB">Рубль (RUB)</option>
+          </select>
+      </div>
+      <button id="convert-btn">Конвертировать</button>
+      <div id="result" class="result"></div>
+  </div>
+
+  <!-- Подключаем JavaScript в конце body -->
+  <script src="js/script.js"></script>
   </body>
 </html>
-!

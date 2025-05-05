@@ -1,0 +1,56 @@
+Span { 
+    color: black;  
+font-style: italic;
+background-color: #03ffdd;
+}
+body {
+    color: azure;
+    background-color: #1A1A1B; /* Светло-серый */
+  }
+  .converter {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #1A1A1B;
+}
+
+.converter h2 {
+    text-align: center;
+    color: #333;
+}
+
+.converter input, .converter select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.converter button {
+    width: 100%;
+    background-color: #beea10;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.converter button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
